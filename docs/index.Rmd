@@ -11,7 +11,8 @@ links:
   - label: Email
     url: "mailto:baldoni.p@wehi.edu.au"
 output:
-  postcards::trestles
+  postcards::trestles:
+    self_contained: false # remotes::install_github("seankross/postcards@self-contained")
 ---
 
 ## Bio
@@ -20,6 +21,26 @@ I am currently a Postdoctoral Fellow in the [Smyth Lab](https://www.wehi.edu.au/
 
 In 2020, I graduated with a PhD in [biostatistics](https://sph.unc.edu/bios/biostatistics/) from the [University of North Carolina at Chapel Hill](https://sph.unc.edu/bios/biostatistics/). During my PhD, I developed statistical methods for the analysis of both bulk and single-cell epigenomic assays. At UNC, I was a graduate researcher in the [Hispanic Community Health Study / Study of Latinos (HCHS/SOL)](https://sites.cscc.unc.edu/hchs/) and developed/applied statistical methods to analyze data from the HCHS/SOL under complex survey design settings.
 
+## Projects
+
+* catchSalmon/catchKallisto (within edgeR) ![](https://bioconductor.org/shields/years-in-bioc/edgeR.svg)
+    + Estimation of mapping ambiguity overdispersion from transcript quantification of short read RNA-seq data. It unlocks uncertainty-free differential expression assessment at the transcript-level within edgeR.
+    + [R/Bioconductor](https://bioconductor.org/packages/edgeR)
+    + [Workflow](https://plbaldoni.github.io/TranscriptDE-code) and [User's Guide](https://bioconductor.org/packages/release/bioc/vignettes/edgeR/inst/doc/edgeRUsersGuide.pdf)
+    + [Preprint](https://www.biorxiv.org/content/10.1101/2023.04.02.535231)
+
+* epigraHMM ![](https://bioconductor.org/shields/years-in-bioc/epigraHMM.svg)
+    + A toolkit for the analysis of epigenomic datasets such as ChIP-seq, ATAC-seq, CUT&RUN, and CUT&Tag. It performs differential and consensus peak calling from multi-sample multi-condition datasets.
+    + [R/Bioconductor](https://bioconductor.org/packages/epigraHMM)
+    + [Vignette](https://bioconductor.org/packages/release/bioc/vignettes/epigraHMM/inst/doc/epigraHMM.html)
+    + [Paper](https://onlinelibrary.wiley.com/doi/10.1111/biom.13477)
+    
+* ZIMHMM
+    + A consensus peak caller for epigenomic datasets. It implements a fast hidden Markov model with mixed-effects zero-inflated negative binomial emissions using sample-specific random effects.
+    + [GitHub](https://github.com/plbaldoni/ZIMHMM)
+    + [Paper](https://onlinelibrary.wiley.com/doi/full/10.1111/biom.13083)
+    
 ## Timeline
 
-<img align="center" src="https://ghchart.rshah.org/4B9CD3/plbaldoni" alt="plbaldoni's Github chart" width=550>
+![](https://ghchart.rshah.org/4B9CD3/plbaldoni)
+

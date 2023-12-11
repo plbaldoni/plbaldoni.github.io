@@ -4,8 +4,6 @@ image: "avatar.png"
 links:
   - label: Google Scholar
     url: "https://scholar.google.com/citations?user=5lHSzXYAAAAJ"
-  - label: Twitter
-    url: "https://twitter.com/plbaldoni"
   - label: GitHub
     url: "https://github.com/plbaldoni"
   - label: Email
@@ -17,7 +15,7 @@ output:
 
 ## Bio
  
-I am currently a Postdoctoral Fellow in the [Smyth Lab](https://www.wehi.edu.au/people/gordon-smyth/486/gordon-smyth-lab-team) at the [Walter and Eliza Hall Institute of Medical Research](https://www.wehi.edu.au/). At the WEHI, most of my research has been focused on the analysis and interpretation of bulk and single-cell epigenomic, transcriptomic, and proteomics data. I enjoy developing new statistical methods and writing efficient bioinformatic tools that can help researchers make sense of their data.
+I am currently a Postdoctoral Researcher in the [Smyth Lab](https://www.wehi.edu.au/people/gordon-smyth/486/gordon-smyth-lab-team) at the [Walter and Eliza Hall Institute of Medical Research](https://www.wehi.edu.au/). At the WEHI, most of my research has been focused on the analysis and interpretation of bulk and single-cell epigenomic, transcriptomic, and proteomics data. I enjoy developing new statistical methods and writing efficient bioinformatic tools that can help researchers make sense of their data.
 
 In 2020, I graduated with a PhD in [biostatistics](https://sph.unc.edu/bios/biostatistics/) from the [University of North Carolina at Chapel Hill](https://sph.unc.edu/bios/biostatistics/). During my PhD, I developed statistical methods for the analysis of both bulk and single-cell epigenomic assays. At UNC, I was a graduate researcher in the [Hispanic Community Health Study / Study of Latinos (HCHS/SOL)](https://sites.cscc.unc.edu/hchs/) and developed/applied statistical methods to analyze data from the HCHS/SOL under complex survey design settings.
 
@@ -27,7 +25,7 @@ In 2020, I graduated with a PhD in [biostatistics](https://sph.unc.edu/bios/bios
     + Estimation of mapping ambiguity overdispersion from transcript quantification of short read RNA-seq data. It unlocks uncertainty-free differential expression assessment at the transcript-level within edgeR.
     + [R/Bioconductor](https://bioconductor.org/packages/edgeR)
     + [Workflow](https://plbaldoni.github.io/TranscriptDE-code) and [User's Guide](https://bioconductor.org/packages/release/bioc/vignettes/edgeR/inst/doc/edgeRUsersGuide.pdf)
-    + [Preprint](https://www.biorxiv.org/content/10.1101/2023.04.02.535231)
+    + [Paper](https://doi.org/10.1093/nar/gkad1167)
 
 * epigraHMM ![](https://bioconductor.org/shields/years-in-bioc/epigraHMM.svg)
     + A toolkit for the analysis of epigenomic datasets such as ChIP-seq, ATAC-seq, CUT&RUN, and CUT&Tag. It performs differential and consensus peak calling from multi-sample multi-condition datasets.

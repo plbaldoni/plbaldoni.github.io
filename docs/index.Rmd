@@ -7,19 +7,27 @@ links:
   - label: GitHub
     url: "https://github.com/plbaldoni"
   - label: Email
-    url: "mailto:baldoni.p@wehi.edu.au"
+    url: "mailto:pedrobaldoni@gmail.com"
 output:
   postcards::trestles:
     self_contained: false # remotes::install_github("seankross/postcards@self-contained")
 ---
 
-## Bio
- 
-I am currently a Postdoctoral Researcher in the [Smyth Lab](https://www.wehi.edu.au/people/gordon-smyth/486/gordon-smyth-lab-team) at the [Walter and Eliza Hall Institute of Medical Research](https://www.wehi.edu.au/). At the WEHI, most of my research has been focused on the analysis and interpretation of bulk and single-cell epigenomic, transcriptomic, and proteomics data. I enjoy developing new statistical methods and writing efficient bioinformatic tools that can help researchers make sense of their data.
+## About
 
-In 2020, I graduated with a PhD in [biostatistics](https://sph.unc.edu/bios/biostatistics/) from the [University of North Carolina at Chapel Hill](https://sph.unc.edu/bios/biostatistics/). During my PhD, I developed statistical methods for the analysis of both bulk and single-cell epigenomic assays. At UNC, I was a graduate researcher in the [Hispanic Community Health Study / Study of Latinos (HCHS/SOL)](https://sites.cscc.unc.edu/hchs/) and developed/applied statistical methods to analyze data from the HCHS/SOL under complex survey design settings.
+I am an Assistant Professor in the [Department of Biostatistics and Health Data Science](https://www.publichealth.pitt.edu/biostatistics) at the University of Pittsburgh. Previously, I was a postdoctoral researcher in the laboratory of [Prof. Gordon Smyth](https://www.wehi.edu.au/laboratory/smyth-lab) at the Walter and Eliza Hall Institute of Medical Research. I received my PhD in Biostatistics from the University of North Carolina at Chapel Hill under the supervision of [Dr. Naim Rashid](https://sph.unc.edu/adv_profile/naim-rashid-phd/) and [Dr. Joseph Ibrahim](https://sph.unc.edu/adv_profile/joseph-g-ibrahim-phd).
+
+My research interests focus on developing statistical methods and open-source bioinformatic tools to analyze data from a wide range of high-throughput genomic, transcriptomic, and proteomic technologies. I enjoy creating new statistical methods and writing efficient bioinformatic tools that help researchers interpret their data. I am particularly interested in developing methods and software for the [Bioconductor Project](https://bioconductor.org). One key goal of the methods I develop is to identify molecular features, such as genomic coordinates, genes/transcripts, or proteins, that change in accessibility, expression, or abundance between experimental conditions.
+
+At Pitt, I collaborate with research groups from the Department of Orthopedic Surgery to understand the genomic and molecular mechanisms in spine-related diseases, other orthopedic issues, and traumatic brain injury. These collaborations provide the foundation for my methodological and computational ideas.
 
 ## Projects
+
+* Differential transcript expression with edgeR v4 ![](https://bioconductor.org/shields/years-in-bioc/edgeR.svg)
+    + Improved differential transcript expression pipeline with [Salmon](https://github.com/COMBINE-lab/salmon)'s Gibbs sampling and the new bias-corrected quasi-likelihood method with adjusted deviances for small counts from edgeR v4.
+    + [R/Bioconductor](https://bioconductor.org/packages/edgeR)
+    + [Workflow](https://plbaldoni.github.io/GibbsDTE-code)
+    + [Preprint](https://www.biorxiv.org/content/10.1101/2024.06.25.600555v1)
 
 * catchSalmon/catchKallisto (within edgeR) ![](https://bioconductor.org/shields/years-in-bioc/edgeR.svg)
     + Estimation of mapping ambiguity overdispersion from transcript quantification of short read RNA-seq data. It unlocks uncertainty-free differential expression assessment at the transcript-level within edgeR.

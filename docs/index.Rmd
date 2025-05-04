@@ -19,15 +19,19 @@ I am an Assistant Professor in the [Department of Biostatistics and Health Data 
 
 My research interests focus on developing statistical methods and open-source bioinformatic tools to analyze data from a wide range of high-throughput genomic, transcriptomic, and proteomic technologies. I enjoy creating new statistical methods and writing efficient bioinformatic tools that help researchers interpret their data. I am particularly interested in developing methods and software for the [Bioconductor Project](https://bioconductor.org). One key goal of the methods I develop is to identify molecular features, such as genomic coordinates, genes/transcripts, or proteins, that change in accessibility, expression, or abundance between experimental conditions.
 
-At Pitt, I collaborate with research groups from the Department of Orthopedic Surgery to understand the genomic and molecular mechanisms in spine-related diseases, other orthopedic issues, and traumatic brain injury. These collaborations provide the foundation for my methodological and computational ideas.
-
 ## Projects
+
+* Differential transcript usage with limma and edgeR ![](https://bioconductor.org/shields/years-in-bioc/limma.svg) ![](https://bioconductor.org/shields/years-in-bioc/edgeR.svg)
+    + Uncertainty-aware differential transcript usage analysis method with divided counts. The diffSplice function is now a generic function with methods for limma MArrayLM objects and edgeR DGEGLM objects for Bioconductor v3.21 and above.
+    + [limma](https://bioconductor.org/packages/limma) and [edgeR](https://bioconductor.org/packages/edgeR)
+    + [Workflow](https://plbaldoni.github.io/DTU-code)
+    + [Preprint](https://doi.org/10.1101/2025.04.07.647659)
 
 * Differential transcript expression with edgeR v4 ![](https://bioconductor.org/shields/years-in-bioc/edgeR.svg)
     + Improved differential transcript expression pipeline with [Salmon](https://github.com/COMBINE-lab/salmon)'s Gibbs sampling and the new bias-corrected quasi-likelihood method with adjusted deviances for small counts from edgeR v4.
     + [R/Bioconductor](https://bioconductor.org/packages/edgeR)
     + [Workflow](https://plbaldoni.github.io/GibbsDTE-code)
-    + [Preprint](https://www.biorxiv.org/content/10.1101/2024.06.25.600555v1)
+    + [Paper](https://doi.org/10.1093/nargab/lqae151)
 
 * catchSalmon/catchKallisto (within edgeR) ![](https://bioconductor.org/shields/years-in-bioc/edgeR.svg)
     + Estimation of mapping ambiguity overdispersion from transcript quantification of short read RNA-seq data. It unlocks uncertainty-free differential expression assessment at the transcript-level within edgeR.

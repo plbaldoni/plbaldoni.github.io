@@ -11,6 +11,8 @@ links:
 output:
   postcards::trestles:
     self_contained: false # remotes::install_github("seankross/postcards@self-contained")
+    includes:
+      in_header: head.html
 ---
 
 ## About
